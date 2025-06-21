@@ -28,7 +28,7 @@ const Hero = () => {
               View Projects
             </Button>
             <Button size="lg" variant="outline" className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105">
-              <Mail className="mr-2 h-5 w-5" />
+              <Mail className="mr-2 h-5 w-6" />
               Contact Me
             </Button>
           </div>
