@@ -5,7 +5,7 @@ import { ArrowDown, Github, Mail } from "lucide-react";
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
-      <div className="absolute inset-0 bg-[url('data:image/svg+xml,<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" fill-rule=\"evenodd\"><g fill=\"%23ffffff\" fill-opacity=\"0.03\"><circle cx=\"30\" cy=\"30\" r=\"2\"/></g></g></svg>')] opacity-20"></div>
+      <div className="absolute inset-0 opacity-20 bg-gradient-to-r from-transparent via-white/5 to-transparent"></div>
       
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-fade-in">
