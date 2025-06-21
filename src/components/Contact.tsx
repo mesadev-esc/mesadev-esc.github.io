@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Mail, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, Github } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -59,46 +59,13 @@ const Contact = () => {
               <h3 className="text-2xl font-bold text-white mb-6">Connect With Me</h3>
               <div className="space-y-4">
                 <a 
-                  href="#" 
-                  className="flex items-center gap-4 p-4 bg-slate-800 rounded-lg border border-slate-700 hover:border-purple-400 transition-all duration-300 hover:scale-105 group"
-                >
-                  <Mail className="h-6 w-6 text-purple-400 group-hover:scale-110 transition-transform" />
-                  <div>
-                    <p className="text-white font-semibold">Email</p>
-                    <p className="text-gray-400">mesa@gamedev.com</p>
-                  </div>
-                </a>
-                
-                <a 
-                  href="#" 
+                  href="https://github.com/mesadev-esc" 
                   className="flex items-center gap-4 p-4 bg-slate-800 rounded-lg border border-slate-700 hover:border-purple-400 transition-all duration-300 hover:scale-105 group"
                 >
                   <Github className="h-6 w-6 text-purple-400 group-hover:scale-110 transition-transform" />
                   <div>
                     <p className="text-white font-semibold">GitHub</p>
-                    <p className="text-gray-400">github.com/mesa</p>
-                  </div>
-                </a>
-                
-                <a 
-                  href="#" 
-                  className="flex items-center gap-4 p-4 bg-slate-800 rounded-lg border border-slate-700 hover:border-purple-400 transition-all duration-300 hover:scale-105 group"
-                >
-                  <Linkedin className="h-6 w-6 text-purple-400 group-hover:scale-110 transition-transform" />
-                  <div>
-                    <p className="text-white font-semibold">LinkedIn</p>
-                    <p className="text-gray-400">linkedin.com/in/mesa</p>
-                  </div>
-                </a>
-                
-                <a 
-                  href="#" 
-                  className="flex items-center gap-4 p-4 bg-slate-800 rounded-lg border border-slate-700 hover:border-purple-400 transition-all duration-300 hover:scale-105 group"
-                >
-                  <Twitter className="h-6 w-6 text-purple-400 group-hover:scale-110 transition-transform" />
-                  <div>
-                    <p className="text-white font-semibold">Twitter</p>
-                    <p className="text-gray-400">@mesa_gamedev</p>
+                    <p className="text-gray-400">github.com/mesadev-esc</p>
                   </div>
                 </a>
               </div>
