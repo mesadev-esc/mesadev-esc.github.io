@@ -28,13 +28,16 @@ const Hero = () => {
               View Projects
             </Button>
             <Button size="lg" variant="outline" className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105">
-              <Mail className="mr-2 h-5 w-6" />
+              <Mail className="mr-2 h-5 w-5" />
               Contact Me
             </Button>
           </div>
         </div>
-        
-        <div className="absolute bottom-2.5 right-1/2 left-1/2 transform -translate-x-1/2 animate-bounce">
+
+        <div
+            className="absolute bottom-2.5 left-1/2 animate-bounce"
+            style={{ transform: 'translateX(calc(-50% - 10px))' }}
+        >
           <ArrowDown className="h-6 w-6 text-purple-400" />
         </div>
       </div>
