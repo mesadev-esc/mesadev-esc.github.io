@@ -34,7 +34,7 @@ const Hero = () => {
           </div>
         </div>
         
-        <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <div className="absolute bottom-2.5 right-1/2 left-1/2 transform -translate-x-1/2 animate-bounce">
           <ArrowDown className="h-6 w-6 text-purple-400" />
         </div>
       </div>
