@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Github, Mail } from "lucide-react";
 
@@ -22,11 +21,20 @@ const Hero = () => {
           </p>
           
           <div className="flex gap-4 justify-center mb-12">
-            <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105">
+            <Button 
+              size="lg" 
+              className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
+              onClick={() => window.location.href = "https://github.com/mesadev-esc"}
+            >
               <Github className="mr-2 h-5 w-5" />
               View Projects
             </Button>
-            <Button size="lg" variant="outline" className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
+              onClick={() => window.location.href = "#contact"}
+            >
               <Mail className="mr-2 h-5 w-5" />
               Contact Me
             </Button>
