@@ -1,4 +1,3 @@
-
 import { Code, Gamepad2, Palette, Zap } from "lucide-react";
 
 const About = () => {
@@ -6,7 +5,7 @@ const About = () => {
     {
       icon: <Code className="h-8 w-8" />,
       title: "Programming",
-      description: "Unity, C#, JavaScript, Python"
+      description: "Unity, C#, JavaScript, Python, Java"
     },
     {
       icon: <Gamepad2 className="h-8 w-8" />,
@@ -35,7 +34,7 @@ const About = () => {
           <p className="text-lg text-gray-300 max-w-3xl mx-auto">
             I'm a passionate game developer who loves bringing ideas to life through interactive experiences. 
             With years of experience in the industry, I specialize in creating engaging gameplay mechanics 
-            and polished user experiences that keep players coming back for more.
+            and polished user experiences that keep players engaged.
           </p>
         </div>
 
