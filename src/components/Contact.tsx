@@ -31,6 +31,7 @@ const Contact = () => {
   const onSubmit = async (data: FormValues) => {
     try {
       const mailtoLink = `mailto:ilikecarz55@gmail.com?subject=mesadev-email: ${encodeURIComponent(`${data.name} ${data.email} ${data.subject}`)}&body=${encodeURIComponent(data.message)}`;
+      console.error("Mailed message to ilikecarz55@gmail.com")
       window.location.href = mailtoLink;
     } catch (error) {
       console.error("Error sending email:", error);
