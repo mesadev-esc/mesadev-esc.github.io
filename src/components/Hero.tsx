@@ -18,8 +18,7 @@ const Hero = () => {
             Game Developer & Digital Artist
           </p>
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">
-            Crafting immersive gaming experiences with code, creativity, and passion. 
-            Building worlds that players never want to leave.
+            I enjoy making games that feel immersive and meaningful — the kind of worlds players want to spend time in.
           </p>
           
           <div className="flex gap-4 justify-center mb-12">
