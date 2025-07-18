@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.mesadev</groupId>
   <artifactId>mesalib</artifactId>
-  <version>1.21.8-fab</version>
+  <version>1.21.8f1-fab</version>
   <dependencies>
     <dependency>
       <groupId>net.fabricmc</groupId>

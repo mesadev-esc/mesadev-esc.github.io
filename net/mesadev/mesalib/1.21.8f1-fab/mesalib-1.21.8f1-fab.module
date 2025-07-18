@@ -3,7 +3,7 @@
   "component": {
     "group": "net.mesadev",
     "module": "mesalib",
-    "version": "1.21.8-fab",
+    "version": "1.21.8f1-fab",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "mesalib-1.21.8-fab.jar",
-          "url": "mesalib-1.21.8-fab.jar",
-          "size": 16332,
-          "sha512": "746bfa8a49ecf387e9295aa1dec7757a85fe2af5b881d2b073f88db80ea032c0bdb0bb733d95945a200449914fdf24c5237a406924759948dac866eee8e47e15",
-          "sha256": "0dcd029219e6f9fa202f0ad1aa80196459494e94a5337dae221b1353a1152037",
-          "sha1": "a80ba2e4d48caaa35d5fbf86198133d4864bcc53",
-          "md5": "db83f6744563438fb62048c6402c87c8"
+          "name": "mesalib-1.21.8f1-fab.jar",
+          "url": "mesalib-1.21.8f1-fab.jar",
+          "size": 16764,
+          "sha512": "a8ae1646cc28478ac2ec86c5cac103129111d829acfdc546d9b64b3072d803e7ba30a319a1b4688d50640e6d4e4fb960a5865086317ca9f116291259576a1517",
+          "sha256": "cf6b77e5a2234d3f6420cff69d65312f1a821d7fd785f4f3666476717dd13fdd",
+          "sha1": "af876e53f01c847f9a06eee0cbaa21f476fdc294",
+          "md5": "3d8e981852bb0b4d2347b97df4f7a0d8"
         }
       ]
     },
@@ -62,13 +62,13 @@
       ],
       "files": [
         {
-          "name": "mesalib-1.21.8-fab.jar",
-          "url": "mesalib-1.21.8-fab.jar",
-          "size": 16332,
-          "sha512": "746bfa8a49ecf387e9295aa1dec7757a85fe2af5b881d2b073f88db80ea032c0bdb0bb733d95945a200449914fdf24c5237a406924759948dac866eee8e47e15",
-          "sha256": "0dcd029219e6f9fa202f0ad1aa80196459494e94a5337dae221b1353a1152037",
-          "sha1": "a80ba2e4d48caaa35d5fbf86198133d4864bcc53",
-          "md5": "db83f6744563438fb62048c6402c87c8"
+          "name": "mesalib-1.21.8f1-fab.jar",
+          "url": "mesalib-1.21.8f1-fab.jar",
+          "size": 16764,
+          "sha512": "a8ae1646cc28478ac2ec86c5cac103129111d829acfdc546d9b64b3072d803e7ba30a319a1b4688d50640e6d4e4fb960a5865086317ca9f116291259576a1517",
+          "sha256": "cf6b77e5a2234d3f6420cff69d65312f1a821d7fd785f4f3666476717dd13fdd",
+          "sha1": "af876e53f01c847f9a06eee0cbaa21f476fdc294",
+          "md5": "3d8e981852bb0b4d2347b97df4f7a0d8"
         }
       ]
     },
@@ -82,13 +82,13 @@
       },
       "files": [
         {
-          "name": "mesalib-1.21.8-fab-sources.jar",
-          "url": "mesalib-1.21.8-fab-sources.jar",
-          "size": 9931,
-          "sha512": "8011ef6ce7b7a41cc67e054cdad33d78576d799969a28e304e26333ec46ec9090257732086ea59f448f4813bf6be81e51433da0627c0312b03d6e134b7a73ca3",
-          "sha256": "c3704e97cef92b681ba2551c633c325a516b7f69a03a544a6368e11c5692ccdc",
-          "sha1": "66f44b3a988305a10817fe79f16a889fec11f0de",
-          "md5": "24354db2ff4a2773004ed996279fd665"
+          "name": "mesalib-1.21.8f1-fab-sources.jar",
+          "url": "mesalib-1.21.8f1-fab-sources.jar",
+          "size": 10155,
+          "sha512": "ae6a4776c1c97a45f42e993687e4efbc2dca7264a14562321f00863e08409d5422351da789961238e97f05a80f06b06edb36fa1c7cdaf6f683634d1efedb8bd1",
+          "sha256": "fbc49413b4129725138777566a72a53f15a3e24681208d825ceef7cf709f2e5d",
+          "sha1": "2178524c1571ea3a001b5dedc006a9991d59f7e0",
+          "md5": "f210db2cacd6e064fcc0308848a76263"
         }
       ]
     }
