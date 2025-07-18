@@ -1,7 +1,7 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "net.mesadev.mesalib",
+    "group": "net.mesadev",
     "module": "mesalib",
     "version": "1.21.8-fab",
     "attributes": {
@@ -85,10 +85,10 @@
           "name": "mesalib-1.21.8-fab-sources.jar",
           "url": "mesalib-1.21.8-fab-sources.jar",
           "size": 9931,
-          "sha512": "d07e68e465f2b11fbd904306daf7e1c88bffb04fb484750f43bc82e4567f47f4f465c77736a7c7337e1806d8ce3d198bee09f6a0d45846a79eb2bb8423d35c3a",
-          "sha256": "47f477546aaca52609c34b70d838dc9b5aa51b6f8ae4f6f29b41294e39c1a18b",
-          "sha1": "45d20dbc50cf54cc3a50ed0033b5ba936c23c024",
-          "md5": "1bf42d3d5cfdd0c98f56014222b614ea"
+          "sha512": "8011ef6ce7b7a41cc67e054cdad33d78576d799969a28e304e26333ec46ec9090257732086ea59f448f4813bf6be81e51433da0627c0312b03d6e134b7a73ca3",
+          "sha256": "c3704e97cef92b681ba2551c633c325a516b7f69a03a544a6368e11c5692ccdc",
+          "sha1": "66f44b3a988305a10817fe79f16a889fec11f0de",
+          "md5": "24354db2ff4a2773004ed996279fd665"
         }
       ]
     }
