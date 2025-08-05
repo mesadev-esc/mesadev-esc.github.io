@@ -86,10 +86,10 @@ function App() {
             Feel free to reach out!
           </p>
           <a 
-            href="https://discord.gg/3XSuZqqK" 
+            href="https://discord.gg/" 
             className="inline-block px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-semibold transition-all duration-300 shadow-lg shadow-blue-500/20 tracking-wide"
           >
-            Message me on Discord
+            Message me on Discord: mesadev
           </a>
         </div>
       </section>
