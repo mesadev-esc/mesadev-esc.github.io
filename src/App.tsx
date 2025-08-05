@@ -1,5 +1,3 @@
-import React from 'react';
-
 function App() {
   const skills = [
     { name: 'Unity', level: 90 },
@@ -10,16 +8,16 @@ function App() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black text-white">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black text-white font-sans">
       {/* Header */}
       <header className="container mx-auto px-4 py-8 flex justify-between items-center">
         <div className="text-2xl font-bold">mesa</div>
         <nav>
           <ul className="flex space-x-6">
-            <li><a href="#about" className="hover:text-cyan-400 transition-colors">About</a></li>
-            <li><a href="#skills" className="hover:text-cyan-400 transition-colors">Skills</a></li>
-            <li><a href="#projects" className="hover:text-cyan-400 transition-colors">Projects</a></li>
-            <li><a href="#contact" className="hover:text-cyan-400 transition-colors">Contact</a></li>
+            <li><a href="#about" className="hover:text-blue-400 transition-colors duration-300">About</a></li>
+            <li><a href="#skills" className="hover:text-blue-400 transition-colors duration-300">Skills</a></li>
+            <li><a href="#projects" className="hover:text-blue-400 transition-colors duration-300">Projects</a></li>
+            <li><a href="#contact" className="hover:text-blue-400 transition-colors duration-300">Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -27,7 +25,7 @@ function App() {
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-20 md:py-32 flex flex-col items-center text-center">
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500">
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-300 to-blue-500">
             mesa
           </span>
         </h1>
@@ -37,7 +35,7 @@ function App() {
         <div className="flex gap-4">
           <a 
             href="#projects" 
-            className="px-8 py-3 bg-cyan-600 hover:bg-cyan-700 rounded-lg font-medium transition-colors"
+            className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-semibold transition-all duration-300 shadow-lg shadow-blue-500/20 tracking-wide"
           >
             View My Work
           </a>
@@ -45,7 +43,7 @@ function App() {
             href="https://github.com/mesadev-esc" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="px-8 py-3 bg-gray-800 hover:bg-gray-700 rounded-lg font-medium transition-colors"
+            className="px-8 py-3 bg-gray-800 hover:bg-gray-700 text-white rounded-lg font-semibold transition-all duration-300 border border-gray-700 tracking-wide"
           >
             GitHub
           </a>
@@ -60,7 +58,6 @@ function App() {
             <div key={index} className="bg-gray-800/50 p-6 rounded-xl">
               <div className="flex justify-between mb-2">
                 <span className="font-medium">{skill.name}</span>
-                <span>{skill.level}%</span>
               </div>
               <div className="h-2 bg-gray-700 rounded-full">
                 <div 
@@ -77,32 +74,6 @@ function App() {
       <section id="projects" className="container mx-auto px-4 py-20">
         <h2 className="text-3xl font-bold mb-16 text-center">Featured Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="bg-gray-800/50 p-6 rounded-xl border border-gray-700 hover:border-cyan-500 transition-colors">
-            <h3 className="text-xl font-bold mb-2">Unity Game</h3>
-            <p className="text-gray-300 mb-4">Immersive 3D game built with Unity and C#</p>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-2 py-1 bg-cyan-900/50 text-cyan-300 text-sm rounded">Unity</span>
-              <span className="px-2 py-1 bg-cyan-900/50 text-cyan-300 text-sm rounded">C#</span>
-            </div>
-          </div>
-          
-          <div className="bg-gray-800/50 p-6 rounded-xl border border-gray-700 hover:border-cyan-500 transition-colors">
-            <h3 className="text-xl font-bold mb-2">Web Application</h3>
-            <p className="text-gray-300 mb-4">Modern web app with React and TypeScript</p>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-2 py-1 bg-cyan-900/50 text-cyan-300 text-sm rounded">React</span>
-              <span className="px-2 py-1 bg-cyan-900/50 text-cyan-300 text-sm rounded">TypeScript</span>
-            </div>
-          </div>
-          
-          <div className="bg-gray-800/50 p-6 rounded-xl border border-gray-700 hover:border-cyan-500 transition-colors">
-            <h3 className="text-xl font-bold mb-2">Go Microservice</h3>
-            <p className="text-gray-300 mb-4">High-performance backend service in Go</p>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-2 py-1 bg-cyan-900/50 text-cyan-300 text-sm rounded">Go</span>
-              <span className="px-2 py-1 bg-cyan-900/50 text-cyan-300 text-sm rounded">Docker</span>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -115,10 +86,10 @@ function App() {
             Feel free to reach out!
           </p>
           <a 
-            href="mailto:contact@mesadev.io" 
-            className="inline-block px-8 py-3 bg-cyan-600 hover:bg-cyan-700 rounded-lg font-medium transition-colors"
+            href="https://discord.gg/3XSuZqqK" 
+            className="inline-block px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-semibold transition-all duration-300 shadow-lg shadow-blue-500/20 tracking-wide"
           >
-            Send Email
+            Message me on Discord
           </a>
         </div>
       </section>
@@ -132,7 +103,7 @@ function App() {
             href="https://github.com/mesadev-esc" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-cyan-400 hover:text-cyan-300 transition-colors"
+            className="text-cyan-400 hover:text-blue-400 transition-colors duration-300"
           >
             GitHub
           </a>
