@@ -112,15 +112,15 @@ function App() {
           {projects.map((project, index) => (
             <div key={index} className="bg-gray-800/50 rounded-xl overflow-hidden transition-transform duration-300 hover:scale-105">
               <img 
-                src={project.image} 
-                alt={project.title} 
+                src={project?.image} 
+                alt={project?.title} 
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                <p className="text-gray-300 mb-4">{project.description}</p>
+                <h3 className="text-xl font-bold mb-2">{project?.title}</h3>
+                <p className="text-gray-300 mb-4">{project?.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.technologies.map((tech, techIndex) => (
+                  {project?.technologies.map((tech, techIndex) => (
                     <span key={techIndex} className="px-3 py-1 bg-blue-900/50 text-blue-300 rounded-full text-sm">
                       {tech}
                     </span>
@@ -128,7 +128,7 @@ function App() {
                 </div>
                 <div className="flex gap-4">
                   <a 
-                    href={project.githubUrl} 
+                    href={project?.githubUrl} 
                     className="text-blue-400 hover:text-blue-300 transition-colors duration-300"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -136,7 +136,7 @@ function App() {
                     GitHub
                   </a>
                   <a 
-                    href={project.liveUrl} 
+                    href={project?.liveUrl} 
                     className="text-blue-400 hover:text-blue-300 transition-colors duration-300"
                     target="_blank"
                     rel="noopener noreferrer"
