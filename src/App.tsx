@@ -12,19 +12,35 @@ function App() {
       title: "SMM (Custom Install Support)",
       description: "Satisfactory Mod Manager fork with built-in support for custom (and cracked) installations.",
       technologies: ["Svelte", "Go", "TypeScript"],
-      image: "./assets/smmcis.png",
-      githubUrl: "#",
+      image: "https://mesadev-esc.github.io/assets/smmcis.png",
+      githubUrl: "https://github.com/mesadev-esc/SMM-CrackSupport",
       liveUrl: "#"
     },
     {
-      title: "SMM (Custom Install Support)",
-      description: "Satisfactory Mod Manager fork with built-in support for custom (and cracked) installations.",
-      technologies: ["Svelte", "Go", "TypeScript"],
-      image: "./assets/smmcis.png",
-      githubUrl: "#",
+      title: "Bread Clicker",
+      description: "bread",
+      technologies: [],
+      image: "https://mesadev-esc.github.io/assets/bread_clicker.png",
+      githubUrl: "https://mesadev-esc.github.io/bread-clicker/",
       liveUrl: "#"
-    }
-  ];
+    },
+    {
+      title: "Live Profiler",
+      description: "Minecraft in-game performance and timing profiler",
+      technologies: ["Java", "Groovy"],
+      image: "https://mesadev-esc.github.io/assets/liveprofiler_logo.png",
+      githubUrl: "https://github.com/mesadev-esc/LiveProfiler",
+      liveUrl: "#"
+    },
+    {
+      title: "Java And-Or",
+      description: "Simple Java library for building and-or trees",
+      technologies: ["Java"],
+      image: "https://mesadev-esc.github.io/assets/javaandor.png",
+      githubUrl: "https://github.com/mesadev-esc/java-and-or",
+      liveUrl: "#"
+    },,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, // peak tsx syntax
+  ];;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black text-white font-sans">
@@ -125,13 +141,23 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Live Demo
                   </a>
                 </div>
               </div>
             </div>
           ))}
         </div>
+                <p className="mt-2">
+          Check out my other projects on my{' '}
+          <a 
+            href="https://github.com/mesadev-esc" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-cyan-400 hover:text-blue-400 transition-colors duration-300"
+          >
+            GitHub
+          </a>
+          </p>
       </section>
 
       {/* Contact Section */}
