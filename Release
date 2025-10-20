@@ -1,8 +1,8 @@
-Origin: MesaDev
-Label: MesaDev Repo
+Origin: mesadev-esc
+Label: mesadev-esc Repo
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64 all
+Architectures: iphoneos-arm
 Components: main
-Description: MesaDev's Sileo Repo
+Description: My tweak repo
