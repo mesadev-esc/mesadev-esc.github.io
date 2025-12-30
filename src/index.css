@@ -4,9 +4,47 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Background grid styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  /* Removed overflow: hidden to allow scrolling */
+  position: relative;
+}
+
+.background-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 2px;
+}
+
+.bg-column {
+  display: grid;
+  grid-template-rows: repeat(auto-fill, minmax(1rem, 1fr));
+  gap: 2px;
+}
+
+.bg-box {
+  width: 100%;
+  height: 100%;
+  transition: background-color 0.3s ease;
+}
+
+/* Main content styles */
 @layer base {
   html, body {
-    height: 100%;
+    height: auto; /* Changed from 100% to allow scrolling */
     font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     scroll-behavior: smooth;
   }
@@ -15,7 +53,7 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    /* Removed min-height to allow natural content flow */
   }
   
   #root {
