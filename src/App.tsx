@@ -1,10 +1,10 @@
 function App() {
   const skills = [
-    { name: 'Unity', level: 90 },
-    { name: 'C# & C++', level: 85 },
-    { name: 'Java', level: 80 },
-    { name: 'Go', level: 75 },
-    { name: 'Web Development', level: 95 },
+    { name: 'Unity', rating: "i only use unity cuz i dont understand blueprints. and whos average pc can actually handle unreal?? overall, im good at it, 7.9/10." },
+    { name: 'C# & C++', rating: "these are barely related, but i like both for their own respective reasons. im decent here. 8.3/10." },
+    { name: 'Java', rating: "i freaking love java. notch reference. oh and im really good at java. 9.5/10." },
+    { name: 'Go', rating: "used it once. decent. 6/10." },
+    { name: 'Web Development', rating: "can you tell me this website doesnt look good? exactly. 9/10." },
   ];
 
   const projects = [
@@ -34,22 +34,22 @@ function App() {
     },
     {
       title: "Java And-Or",
-      description: "Simple Java library for building and-or trees",
+      description: "Simple Java library for building and-or trees (this is not efficient in any way)",
       technologies: ["Java"],
       image: "https://mesadev-esc.github.io/assets/javaandor.png",
       githubUrl: "https://github.com/mesadev-esc/java-and-or",
       liveUrl: "#"
-    },,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, // peak tsx syntax
-  ];;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    },,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, // peak tsx syntax
+  ];;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; // gah dayum
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-blue-950 to-black text-white font-sans scroll-smooth">
-      {/* Header */}
+      {/* Header */}{/* Header */}{/* Header */}{/* Header */}{/* Header */}{/* Header */}{/* Header */}{/* Header */}{/* Header */}{/* Header */} // uhm guys
       <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-b from-slate-950/95 to-slate-950/70 backdrop-blur-lg border-b border-gradient-to-r border-cyan-500/20 to-blue-500/20 shadow-lg shadow-cyan-500/10">
         <div className="flex justify-between items-center px-6 md:px-12 py-5">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-300 to-blue-500">mesa</div>
+            <div className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-300 to-blue-500">mesadev</div>
           </div>
           
           {/* Nav Links */}
@@ -129,14 +129,10 @@ function App() {
             <div key={index} className="bg-gradient-to-br from-slate-800/40 to-slate-900/40 backdrop-blur-sm p-6 rounded-xl border border-cyan-500/20 hover:border-cyan-400/50 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/20 group">
               <div className="flex justify-between mb-4">
                 <span className="font-semibold text-lg group-hover:text-cyan-300 transition-colors">{skill.name}</span>
-                <span className="text-cyan-400 font-bold">{skill.level}%</span>
               </div>
-              <div className="h-3 bg-slate-700/50 rounded-full overflow-hidden border border-cyan-500/10">
-                <div 
-                  className="h-full bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full shadow-lg shadow-cyan-500/50 transition-all duration-700" 
-                  style={{ width: `${skill.level}%` }}
-                ></div>
-              </div>
+              <p className="text-cyan-300 text-sm leading-relaxed">
+                {skill.rating}
+              </p>
             </div>
           ))}
         </div>
