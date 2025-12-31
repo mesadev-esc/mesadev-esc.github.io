@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 function App() {
   // Define more subtle color schemes based on your site's cyan/blue palette
@@ -23,7 +23,7 @@ function App() {
       
       wrapper.innerHTML = '';
       
-      columns.forEach((columnColor, index) => {
+      columns.forEach((columnColor, _index) => {
         const column = document.createElement('div');
         column.className = 'bg-column';
         column.dataset.colorScheme = columnColor;
@@ -42,7 +42,7 @@ function App() {
 
     const animateColumn = (column: HTMLElement, direction = 1) => {
       const boxes = Array.from(column.querySelectorAll('.bg-box')) as HTMLElement[];
-      const colorScheme = colorSchemes[column.dataset.colorScheme as keyof typeof colorSchemes];
+      const colorScheme = colorSchemes[(column as HTMLElement).dataset.colorScheme as keyof typeof colorSchemes];
       
       // Get current colors
       const currentColors = boxes.map(box => {
@@ -69,7 +69,7 @@ function App() {
       const columns = document.querySelectorAll('.bg-column');
       columns.forEach(column => {
         const boxes = column.querySelectorAll('.bg-box');
-        const colorScheme = colorSchemes[column.dataset.colorScheme as keyof typeof colorSchemes];
+        const colorScheme = colorSchemes[(column as HTMLElement).dataset.colorScheme as keyof typeof colorSchemes];
         
         boxes.forEach((box, index) => {
           const colorIndex = index % colorScheme.length;
