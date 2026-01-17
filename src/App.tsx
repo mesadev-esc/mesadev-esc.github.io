@@ -23,7 +23,7 @@ function App() {
       
       wrapper.innerHTML = '';
       
-      columns.forEach((columnColor, _index) => {
+      columns.forEach((columnColor) => {
         const column = document.createElement('div');
         column.className = 'bg-column';
         column.dataset.colorScheme = columnColor;
@@ -223,7 +223,7 @@ function App() {
             href="https://github.com/mesadev-esc" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="px-4 py-2 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 hover:from-cyan-500/40 hover:to-blue-500/40 text-cyan-300 rounded-lg font-semibold transition-all duration-300 border border-cyan-500/50 hover:border-cyan-400 hover:shadow-lg hover:shadow-cyan-500/30 hidden md:inline-block"
+            className="px-4 py-2 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 hover:from-cyan-500/40 hover:to-blue-500/40 text-cyan-300 rounded-lg font-semibold transition-all duration-300 border border-cyan-500/50 hover:border-cyan-40 hover:shadow-lg hover:shadow-cyan-500/30 hidden md:inline-block"
           >
             GitHub
           </a>
@@ -263,6 +263,10 @@ function App() {
           </a>
         </div>
       </section>
+
+      <div className="bottom-notice">
+        Hey there! I'm currently open for commissions and collaborations. Please visit <a className="text-cyan-300 hover:text-cyan-400" href="https://github.com/mesadev-esc">this page</a> to learn more.
+      </div>
 
       {/* Skills Section */}
       <section id="skills" className="container mx-auto px-4 py-24 relative z-10">
